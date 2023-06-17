@@ -9,7 +9,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
 
-@RequestMapping("api/v1/person")
+@CrossOrigin
+@RequestMapping(path = "api/v1/person")
 @RestController
 public class PersonController {
 
